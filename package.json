@@ -18,6 +18,9 @@
     "debugger",
     "function"
   ],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "lint": "standard",
