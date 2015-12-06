@@ -1,6 +1,6 @@
 {
   "name": "debug-fn",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Wraps visionmedia/debug to execute a function on demand",
   "homepage": "https://github.com/maurizzzio/debug-fn",
   "author": {
