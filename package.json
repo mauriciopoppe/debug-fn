@@ -21,6 +21,7 @@
   "files": [
     "dist/"
   ],
+  "license": "MIT",
   "scripts": {
     "clean": "rimraf dist",
     "lint": "standard",
