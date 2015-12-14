@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Wraps visionmedia/debug to execute a function on demand",
   "homepage": "https://github.com/maurizzzio/debug-fn",
+  "repository": "https://github.com/maurizzzio/debug-fn.git",
   "author": {
     "name": "Mauricio Poppe",
     "email": "mauricio.poppe@gmail.com",

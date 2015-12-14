@@ -13,7 +13,10 @@ npm install --save-dev debug-fn
 
 ## Usage
 
-A logger is created in the same way as [debug](https://www.npmjs.com/package/debug), the difference is that the logger receives a function instead of multiple arguments, the function will be called based on [debug](https://www.npmjs.com/package/debug) rules (which checks the value of the DEBUG env variable)
+A logger is created in the same way as [debug](https://www.npmjs.com/package/debug), 
+the difference is that the logger receives a function instead of multiple arguments, 
+the function will be called based on [debug](https://www.npmjs.com/package/debug) rules 
+(which checks the value of the DEBUG env variable)
 
 ```js
 // file example.js
@@ -29,14 +32,14 @@ logger(function (log) {
 Running `example.js` with the DEBUG env set to `app`
 
 ```sh
-$ DEBUG=app example.js
+$ DEBUG=app node example.js
   app hello! +0ms
 ```
 
 Running `example.js` without the DEBUG env doesn't log anything
 
 ```sh
-$ example.js
+$ node example.js
 ```
 
 NOTE: you could also use `this.log` inside logger's function argument (which is
